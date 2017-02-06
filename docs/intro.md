@@ -32,11 +32,11 @@ ES6的第一个版本，就这样在2015年6月发布了，正式名称就是《
 
 任何人都可以向TC39标准委员会提案。一种新的语法从提案到变成正式标准，需要经历五个阶段。每个阶段的变动都需要由TC39委员会批准。
 
-- Stage 0 - Strawman（展示阶段）
-- Stage 1 - Proposal（征求意见阶段）
-- Stage 2 - Draft（草案阶段）
-- Stage 3 - Candidate（候选人阶段）
-- Stage 4 - Finished（定案阶段）
+* Stage 0 - Strawman（展示阶段）
+* Stage 1 - Proposal（征求意见阶段）
+* Stage 2 - Draft（草案阶段）
+* Stage 3 - Candidate（候选人阶段）
+* Stage 4 - Finished（定案阶段）
 
 一个提案只要能进入Stage 2，就差不多等于肯定会包括在以后的正式标准里面。ECMAScript当前的所有提案，可以在TC39的官方网站[Github.com/tc39/ecma262](https://github.com/tc39/ecma262)查看。
 
@@ -646,4 +646,6 @@ fs.writeFileSync('out.js', result.js);
 // sourceMap属性对应map文件
 fs.writeFileSync('out.js.map', result.sourceMap);
 ```
+
+
 
